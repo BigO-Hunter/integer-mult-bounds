@@ -563,3 +563,12 @@ The project is [Apache-2.0](LICENSE). Bundled RaD sources retain their separate
 CC0 license and notices. The pinned original OpenAI manuscript remains unchanged
 under `upstream/`; its source hashes are in [upstream/manifest.json](upstream/manifest.json).
 This project is not an official OpenAI release or endorsement.
+
+
+## Recovered local proof packages
+
+- research/p104-free-endpoint-contract-audit: full verification passed, including canonical capsule authentication, the PR5545 positive control, PR5561 headline and starts-only checks, and both negative controls.
+- research/complex-factory-scale-frontier27: exact scale-placement replay passed over all 39,424 magnitude placements and 315,392 complete placement tuples, minimum cost 73 with no new kappa.
+- research/p104-helper470-twin-rung-removal: the modified local pricing run completed successfully with PYTHONPATH=../p104-productive-controller.
+
+These recovered packages preserve the local proof, checker, source pins and receipts rather than only the final claim text.
