@@ -1,4 +1,6 @@
-> **BigO-Hunter fork notice.** The org's working copy of [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds) — the community integer-multiplication-bounds research repo (maintained by Douglas Colkitt, Apache-2.0). The swarm contributes via upstream PRs (e.g. the CrocSwap PR #6348 credit chain named in the org's dft-halitziyav6-rate). Upstream's README below is unchanged; upstream's Apache-2.0 license applies.
+> **BigO-Hunter fork notice.** The org's working copy of [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds) — the community integer-multiplication-bounds research repo (maintained by Douglas Colkitt, Apache-2.0). The swarm contributes via upstream PRs (e.g. CrocSwap PR #6348). Upstream's README below is unchanged; upstream's Apache-2.0 license applies.
+>
+> Board (Nov 26 2026): this fork tracks the community's conditional κ = 0.003125804 saving; the open race is currently led by OpenAI's O(n log^{1−0.5+ε} n) (Nov 24, Lean Verified) — see [bigospeedrun.com](https://bigospeedrun.com).
 
 # A sharper exponent for integer multiplication
 
